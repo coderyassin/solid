@@ -1,0 +1,47 @@
+The third principle of SOLID is the Liskov Substitution Principle (LSP). It states that:
+
+Objects of a superclass should be replaceable with objects of a subclass without affecting
+the correctness of the program.
+In other words, if a class B is a subclass of class A, then you should be able to use an
+object of class B wherever an object of class A is expected, without breaking the behavior
+of the program.
+
+/******************************************************************************************/
+
+Why is the Liskov Substitution Principle Important?
+Ensures Correctness:
+
+Subclasses should behave in a way that is consistent with the superclass, ensuring that the
+program works as expected.
+
+Promotes Reusability:
+
+Code that relies on the superclass can be reused with any subclass without modification.
+
+Improves Maintainability:
+
+By adhering to LSP, you avoid introducing bugs when extending or modifying the system.
+
+Encourages Good Design:
+
+LSP encourages you to design class hierarchies that are logical and intuitive.
+
+/******************************************************************************************/
+
+Key Concepts of LSP
+Behavioral Subtyping:
+
+Subclasses should honor the contract defined by the superclass. This includes:
+
+Method signatures (input parameters and return types).
+
+Preconditions (what must be true before a method is called).
+
+Postconditions (what must be true after a method is called).
+
+Invariants (properties that must always hold true).
+
+No Surprises:
+
+Subclasses should not introduce unexpected behavior or violate the assumptions made by
+the superclass.

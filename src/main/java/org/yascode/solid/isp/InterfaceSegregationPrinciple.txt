@@ -1,0 +1,42 @@
+The fourth principle of SOLID is the Interface Segregation Principle (ISP). It states that:
+
+Clients should not be forced to depend on interfaces they do not use.
+
+In other words, instead of having a large, monolithic interface, you should break it down
+into smaller, more specific interfaces. This ensures that classes only need to implement
+the methods that are relevant to them.
+
+/******************************************************************************************/
+
+Why is the Interface Segregation Principle Important?
+Reduces Complexity:
+
+Smaller, focused interfaces are easier to understand and implement.
+
+Improves Maintainability:
+
+Changes to one interface are less likely to affect unrelated classes.
+
+Promotes Reusability:
+
+Classes can implement only the interfaces they need, making them more reusable.
+
+Avoids Forced Implementations:
+
+Classes are not forced to implement methods they don’t need, reducing the risk of errors.
+
+/******************************************************************************************/
+
+Key Concepts of ISP
+Client-Specific Interfaces:
+
+Interfaces should be tailored to the needs of the clients that use them.
+
+Avoid Fat Interfaces:
+
+Large interfaces with many methods are harder to maintain and more likely to change.
+
+Single Responsibility for Interfaces:
+
+Each interface should have a single responsibility, similar to the Single Responsibility
+Principle (SRP) for classes.

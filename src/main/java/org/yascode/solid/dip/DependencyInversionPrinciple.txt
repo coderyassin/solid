@@ -1,0 +1,55 @@
+The fifth principle of SOLID is the Dependency Inversion Principle (DIP). It states that:
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+Abstractions should not depend on details. Details should depend on abstractions.
+
+n simpler terms, this principle encourages you to depend on abstractions
+(e.g., interfaces or abstract classes) rather than concrete implementations.
+This makes your code more flexible, maintainable, and testable.
+
+/******************************************************************************************/
+
+Why is the Dependency Inversion Principle Important?
+Decouples Code:
+
+High-level modules (e.g., business logic) are not tightly coupled to low-level modules
+(e.g., database access or external services). This makes the system easier to modify and
+extend.
+
+Improves Testability:
+
+By depending on abstractions, you can easily replace real implementations with mock objects
+for testing.
+
+Promotes Reusability:
+
+Abstractions can be reused across different parts of the system or in different projects.
+
+Enhances Flexibility:
+
+You can change the behavior of the system by swapping out implementations without modifying
+the high-level logic.
+
+/******************************************************************************************/
+
+Key Concepts of DIP
+High-Level Modules:
+
+These are modules that contain the core business logic or application logic.
+They are typically more abstract and less concerned with implementation details.
+
+Low-Level Modules:
+
+These are modules that handle specific tasks, such as database access, file I/O,
+or external API calls. They are more concrete and focused on implementation details.
+
+Abstractions:
+
+These are interfaces or abstract classes that define a contract for behavior.
+They act as a bridge between high-level and low-level modules.
+
+Dependency Injection:
+
+A technique used to implement DIP, where dependencies (e.g., low-level modules) are
+"injected" into high-level modules rather than being created directly.

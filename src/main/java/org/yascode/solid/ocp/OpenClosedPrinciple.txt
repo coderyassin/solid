@@ -1,0 +1,50 @@
+The second principle of SOLID is the Open/Closed Principle (OCP). It states that:
+
+Software entities (classes, modules, functions, etc.) should be open for extension
+but closed for modification.
+
+This means that you should design your code in such a way that you can add new functionality
+without changing the existing code.
+This principle promotes reusability, maintainability, and scalability.
+
+/******************************************************************************************/
+
+Why is the Open/Closed Principle Important?
+Minimizes Risk:
+
+By not modifying existing code, you reduce the risk of introducing bugs or breaking
+existing functionality.
+
+Encourages Reusability:
+
+You can extend the behavior of a system without rewriting or duplicating code.
+
+Improves Maintainability:
+
+New features can be added with minimal changes to the existing codebase.
+
+Promotes Scalability:
+
+The system becomes easier to scale as new requirements arise.
+
+/******************************************************************************************/
+
+Key Concepts of OCP
+Open for Extension:
+
+You should be able to add new features or behaviors to the system.
+
+Closed for Modification:
+
+The existing code should not be modified when adding new features.
+
+/******************************************************************************************/
+
+How to Achieve OCP
+To adhere to the Open/Closed Principle, you can use techniques like:
+
+Abstraction: Use abstract classes or interfaces to define a contract for behavior.
+
+Polymorphism: Allow different implementations of the same interface to provide new functionality.
+
+Inheritance: Extend existing classes to add new behavior.
